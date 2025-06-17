@@ -26,4 +26,4 @@ jobs:
       run: dotnet build MathUtil.sln --configuration Release --no-restore
 
     - name: Run tests
-      run: dotnet test TestExponentialFunction/TestExponentialFunction.csproj --no-build --verbosity normal
+      run: dotnet test TestExponentialFunction/TestExponentialFunction.csproj --configuration Release --no-restore --verbosity normal
