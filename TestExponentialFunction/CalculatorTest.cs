@@ -22,7 +22,7 @@ namespace TestExponentialFunction
 		public void testExponentialReturnsException()
 		{
 			var ex = Assert.Throws<ArgumentException>(() => Exponential.power(0, 0));
-			Assert.Equal("a or b must bigger ", ex.Message);
+			Assert.Equal("a or b must bigger than 0", ex.Message);
 		}
 
 		[Theory]
