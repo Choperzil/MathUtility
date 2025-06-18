@@ -6,7 +6,7 @@ namespace TestExponentialFunction
 	public class CalculatorTest
 	{
 		[Theory]
-		[InlineData(2, 2, 4)]
+		[InlineData(2, 2, 5)]
 		[InlineData(3, 5, 243)]
 		[InlineData(3.4, 3, 39.304)]
 		[InlineData(5, 0, 1)]
